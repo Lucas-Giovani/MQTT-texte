@@ -1,0 +1,73 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.enviar
+{
+    width: 100px;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    background: linear-gradient(334deg, #9af5bd, #24f8a7, #00ff0d);
+    background-size: 180% 180%;
+    animation: gradient-animation 6s ease infinite;
+    transition: 0.3s all ease-in-out;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.mensagem
+{
+    border-radius: 10px;
+    border-color: #00ff0d;
+}
+
+.resposta
+{
+    position: absolute;
+}
+
+.logo
+{
+    width: 50px;
+    height: 50px;
+}
+
+.tudo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    background-color: hsl(0, 0%, 50%, 0.4);
+}
+
+.cima
+{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    background-color: hsl(135, 100%, 50%, 0.4); 
+    flex-direction: row;
+    align-items: center;
+}
+
+.baixo
+{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
